@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.rel{
+	position:relative;
+	width:1340px;
+	height:723px;
+	background-color: rgb(232, 233, 194);
+}
+
+#title h1{
+	/*border: 1px solid white;*/
+	font-size: 100px;
+	/*padding:30px 180px 30px 180px;*/
+	/*background-color: bisque;*/
+	/*width:400px;*/
+	font-style: italic;
+	color: indigo;
+	position:absolute;
+	left:340px;
+	top:20px;
+
+	
+}
+#title h2{
+	/*border: 1px solid white;*/
+	font-size: 30px;
+	/*padding:30px 180px 30px 180px;*/
+	/*background-color: bisque;*/
+	/*width:400px;*/
+	font-style: italic;
+	color: brown;
+	position:absolute;
+	left:10px;
+	top:175px;
+
+	
+}
+ul{
+	background-color: rgb(27, 26, 25);
+	width:928px;
+	font-size: 2px;
+	padding:2px;
+	position:absolute;
+    top:150px;
+}
+#free{
+    background-color: rgb(27, 26, 25);
+	width:928px;
+	font-size: 2px;
+	padding:2px;
+	position:absolute;
+}
+#sel{
+    font-size:17px;
+    font-weight:bold;
+	position:absolute;
+	left:320px;
+	top:230px;
+	padding:7px;
+}
+#table{
+    color:white;
+    position:absolute;
+	left:320px;
+    top:300px;
+    background-color:brown;
+
+    display:none;
+
+    
+}
+#table td{
+    border: white solid 1px;
+    padding:7px;
+}
+
+#table tr th{
+    border: solid white 1px;
+    padding:7px;
+}
+#logo{
+	position:absolute;
+	left:933px;
+	
+}
+#logo1{
+	position:absolute;
+	
+}
+#footer p a{
+	font-size:16px;
+	text-decoration:none;
+	position:absolute;
+	bottom:0px;
+	left:85px;
+	color:white;
+	border: 1px solid black;
+	background-color: black;
+    padding:7px 470px 7px 470px;
+}
